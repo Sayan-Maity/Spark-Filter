@@ -79,7 +79,7 @@ The `CanvasRenderingContext.getImageData()` method of the Canvas API returns an 
 
 Each pixel in the data array consists of 4 bytes values- red, green, blue, and alpha channel, and each of the R (red), G (green), B (blue) and A (alpha transparency) values can take values between 0 and 255.
 
-![canvas image manipulation](images/canvas-pixels.png)
+![canvas image manipulation](images/preview1.png)
 
 This library alters R, G, or B values of each pixel (yes, each pixel in the entire image! so the operation can be quite slow with JavaScript!) to get filtered look.
 
