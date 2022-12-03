@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Filterous 2 Demo</title>
+	<meta name="description" content="Filterous-2 Demo">
+  <meta name="author" content="Tomomi Imura  @girlie_mac">
+	<meta charset="utf-8">
+	<meta name="application-name" content="PhotoFilter 2 Demo">
+	<meta name="viewport" content="width=device-width">
+	<link href='//fonts.googleapis.com/css?family=Homemade+Apple|Life+Savers' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Spark Filter</h1>
+	</header>
+
+	<!-- Photo Preview -->
+	<section id="photoFrame">
+		<div id="loader" hidden="hidden">Processing...</div>
+		<figure>
+			<img id="photo" src="images/cat.jpg" alt="photo">
+			<figcaption id="caption">Kitty</figcaption>
+		</figure>
+	</section>
+
+	<div class="aaa">
+		<div class="nav2">
+		<!-- Filter Effects -->
+		<section id="filterButtons">
+			<div class="align">
+				<div class="bgg">
+					<div id="normal" class="filter normal"> </div>
+					<div class="filter-tag">Original</div>
+					<div class="bgg2 bgg2-filter " id="normal" ><p>Original</p></div>
+				</div>
+				<div class="bgg" >
+					<div  class="filter clarendon"> </div>
+					<div class="filter-tag">Clarendon</div>
+					<div class="bgg2 bgg2-filter " id="clarendon"><p>Clarendon</p></div>
+
+				</div>
+				<div class="bgg" >
+					<div  class="filter slumber"> </div>
+					<div class="filter-tag">Slumber</div>
+					<div class="bgg2 bgg2-filter " id="slumber"><p>Slumber</p></div>
+
+				</div>
+				<div class="bgg" >
+					<div  class="filter mayfair"> </div>
+					<div class="filter-tag">Mayfair</div>
+					<div class="bgg2 bgg2-filter " id="mayfair"><p>Mayfair</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter juno"> </div>
+					<div class="filter-tag">Juno</div>
+					<div class="bgg2 bgg2-filter " id="juno"><p>Juno</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter sierra"> </div>
+					<div class="filter-tag">Sierra</div>
+					<div class="bgg2 bgg2-filter " id="sierra"><p>Sierra</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter stinson"> </div>
+					<div class="filter-tag">Stinson</div>
+					<div class="bgg2 bgg2-filter " id="stinson"><p>Stinson</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter walden"> </div>
+					<div class="filter-tag">Walden</div>
+					<div class="bgg2 bgg2-filter " id="walden"><p>Walden</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter dogpatch"> </div>
+					<div class="filter-tag">Dogpatch</div>
+					<div class="bgg2 bgg2-filter " id="dogpatch"><p>Dogpatch</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter lark"> </div>
+					<div class="filter-tag">Lark</div>
+					<div class="bgg2 bgg2-filter " id="lark"><p>Lark</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter hefe"> </div>
+					<div class="filter-tag">Hefe</div>
+					<div class="bgg2 bgg2-filter " id="hefe"><p>Hefe</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter aden"> </div>
+					<div class="filter-tag">Aden</div>
+					<div class="bgg2 bgg2-filter " id="aden"><p>Aden</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter ginza"> </div>
+					<div class="filter-tag">Ginza</div>
+					<div class="bgg2 bgg2-filter " id="ginza"><p>Ginza</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter charmes"> </div>
+					<div class="filter-tag">Charmes</div>
+					<div class="bgg2 bgg2-filter " id="charmes"><p>Charmes</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter ludwig"> </div>
+					<div class="filter-tag">Ludwig</div>
+					<div class="bgg2 bgg2-filter " id="ludwig"><p>Ludwig</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter moon"> </div>
+					<div class="filter-tag">Moon</div>
+					<div class="bgg2 bgg2-filter " id="moon"><p>Moon</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter hudson"> </div>
+					<div class="filter-tag">Hudson</div>
+					<div class="bgg2 bgg2-filter " id="hudson"><p>Hudson</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter inkwell"> </div>
+					<div class="filter-tag">Inkwell</div>
+					<div class="bgg2 bgg2-filter " id="inkwell"><p>Inkwell</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter brannan"> </div>
+					<div class="filter-tag">brannan</div>
+					<div class="bgg2 bgg2-filter " id="brannan"><p>brannan</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter maven"> </div>
+					<div class="filter-tag">Maven</div>
+					<div class="bgg2 bgg2-filter " id="maven"><p>Maven</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter ashby"> </div>
+					<div class="filter-tag">Ashby</div>
+					<div class="bgg2 bgg2-filter " id="ashby"><p>Ashby</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter gingham"> </div>
+					<div class="filter-tag">Gingham</div>
+					<div class="bgg2 bgg2-filter " id="gingham"><p>Gingham</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter valencia"> </div>
+					<div class="filter-tag">Valencia</div>
+					<div class="bgg2 bgg2-filter " id="valencia"><p>Valencia</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter xpro2"> </div>
+					<div class="filter-tag">X-Pro II</div>
+					<div class="bgg2 bgg2-filter " id="xpro2"><p>X-Pro II</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter lofi"> </div>
+					<div class="filter-tag">Lo-Fi</div>
+					<div class="bgg2 bgg2-filter " id="lofi"><p>Lo-Fi</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter crema"> </div>
+					<div class="filter-tag">Crema</div>
+					<div class="bgg2 bgg2-filter " id="crema"><p>Crema</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter earlybird"> </div>
+					<div class="filter-tag">Earlybird</div>
+					<div class="bgg2 bgg2-filter " id="earlybird"><p>Earlybird</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter kelvin"> </div>
+					<div class="filter-tag">Kelvin</div>
+					<div class="bgg2 bgg2-filter " id="kelvin"><p>Kelvin</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter helena"> </div>
+					<div class="filter-tag">Helena</div>
+					<div class="bgg2 bgg2-filter " id="helena"><p>Helena</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter rise"> </div>
+					<div class="filter-tag">Rise</div>
+					<div class="bgg2 bgg2-filter " id="rise"><p>Rise</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter amaro"> </div>
+					<div class="filter-tag">Amaro</div>
+					<div class="bgg2 bgg2-filter " id="amaro"><p>Amaro</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter brooklyn"> </div>
+					<div class="filter-tag">Brooklyn</div>
+					<div class="bgg2 bgg2-filter " id="brooklyn"><p>Brooklyn</p></div>
+
+				</div>
+				<div class="bgg">
+					<div id="sutro" class="filter sutro"> </div>
+					<div class="filter-tag">Sutro</div>
+					<div class="bgg2 bgg2-filter " id="sutro"><p>Sutro</p></div>
+					
+				</div>
+				<div class="bgg">
+					<div class="filter willow"> </div>
+					<div class="filter-tag">Willow</div>
+					<div class="bgg2 bgg2-filter " id="willow"><p>Willow</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter vesper"> </div>
+					<div class="filter-tag">Vesper</div>
+					<div class="bgg2 bgg2-filter " id="vesper"><p>Vesper</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter ba-1977"> </div>
+					<div class="filter-tag">1977</div>
+					<div class="bgg2 bgg2-filter " id="1977"><p>1977</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter perpetua"> </div>
+					<div class="filter-tag">perpetua</div>
+					<div class="bgg2 bgg2-filter " id="perpetua"><p>perpetua</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter nashville"> </div>
+					<div class="filter-tag">nashville</div>
+					<div class="bgg2 bgg2-filter " id="nashville"><p>nashville</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter reyes"> </div>
+					<div class="filter-tag">reyes</div>
+					<div class="bgg2 bgg2-filter " id="reyes"><p>reyes</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter toaster"> </div>
+					<div class="filter-tag">toaster</div>
+					<div class="bgg2 bgg2-filter " id="toaster"><p>toaster</p></div>
+
+				</div>
+				<div class="bgg">
+					<div class="filter skyline"> </div>
+					<div class="filter-tag">skyline</div>
+					<div class="bgg2 bgg2-filter " id="skyline"><p>skyline</p></div>
+
+				</div>
+			</div>
+		</section>
+	</div>
+	</div>
+
+	<!-- More photos -->
+	<section id="more">
+		<p>Demo Pictures : </p>
+		<ul>
+			<li><a id="flower" href="#flower"><i class='bx bx-image-alt' ></i><span>Flower</span></a> </li>
+			<li><a id="pet" href="#pet"><i class='bx bx-image-alt' ></i><span>Pet</span></a> </li>
+			<li><a id="car" href="#car"><i class='bx bx-image-alt' ></i><span>Luxurious Car</span></a> </li>
+			<li><a id="bride" href="#bride"><i class='bx bx-image-alt' ></i><span>Bride & Groom</span></a> </li>
+			<li><a id="coffee" href="#coffee"><i class='bx bx-image-alt' ></i><span>Coffee Cup</span></a> </li>
+			<li><a id="anime" href="#anime"><i class='bx bx-image-alt' ></i><span>Anime</span></a> </li>
+			<li><a id="joker" href="#joker"><i class='bx bx-image-alt' ></i><span>Joker</span></a> </li>
+			<li><a id="nature" href="#nature"><i class='bx bx-image-alt' ></i><span>Nature</span></a> </li>
+		</ul>
+		<p>or enter an image URL :</p>
+		<input type="text" placeholder="http://foo.com/cat.jpg">
+		<p class="error"></p>
+		<p>or select a file and upload :</p>
+		<input type="file">
+	</section>
+
+
+	<script src="filterous2.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
