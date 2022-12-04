@@ -5,6 +5,12 @@
 
 Spark Filter is an Instagram-like image manipulation Web Application which is written in JavaScript and comes with pre-defined Instagram-like filters (with the same filter names and very similar effects).
 
+Author : [Sayan Maity](sayancr777@gmail.com)
+
+<p align="center">
+<img src="images/preview2.jpg" width="600">
+</p>
+
 ## Installation
 
 Spark Filter only uses a minified JavaScript code which is available on the Release page.
