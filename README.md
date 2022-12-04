@@ -1,4 +1,6 @@
-### Basic Usage for JavaScript on Browser
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f5aeb24e-7e08-4a2c-8110-4ab25ad9c5a6/deploy-status)](https://app.netlify.com/sites/sayancr777-spark-filter/deploys)
+
+### Usage
 
 Import an image object to `filterous` and render as HTML with `renderHtml`.
 
