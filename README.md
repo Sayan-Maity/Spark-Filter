@@ -93,9 +93,6 @@ for example, the value for the `brightness()` 0 means unchanged, -1 darkens the 
 
 Note: `normal` gives no filter effect. It normalize the image to the original.
 
-## Demo
-[Try the demo on browser!](https://girliemac.github.io/filterous-2/demo-browser)
-
 
 ## Behind the Scene
 
@@ -109,3 +106,16 @@ Each pixel in the data array consists of 4 bytes values- red, green, blue, and a
 
 This library alters R, G, or B values of each pixel (yes, each pixel in the entire image! so the operation can be quite slow with JavaScript!) to get filtered look.
 
+
+## Setup and Installation
+Fork and Clone this project. Make sure you have git installed. On the terminal, navigate to your workspace directory and run it
+​
+## Contributing
+Pull requests are encouraged
+​
+## Future Scope
+- UI part can be improved by adding some animations
+- Brainstorming any new feature are always welcome
+​
+## License
+This project is licensed under the MIT license.
