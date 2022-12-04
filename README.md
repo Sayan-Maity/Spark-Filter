@@ -8,7 +8,7 @@ Spark Filter is an Instagram-like image manipulation Web Application which is wr
 Author : [Sayan Maity](sayancr777@gmail.com)
 
 <p align="center">
-<img src="images/preview2.jpg" width="600">
+  <img src="images/preview2.jpg" >
 </p>
 
 ## Installation
