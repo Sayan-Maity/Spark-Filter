@@ -1,4 +1,17 @@
+# Spark Filter
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f5aeb24e-7e08-4a2c-8110-4ab25ad9c5a6/deploy-status)](https://app.netlify.com/sites/sayancr777-spark-filter/deploys)
+
+Filterous 2 is an Instagram-like image manipulation library for Javascript and node.js.
+
+This is a revamped version of Filterous, which was written for JavaScript for browser about 4 years ago. 
+This version works on both Node.js and browser, and comes with pre-defined Instagram-like filters (with the same filter names and very similar effects).
+
+## Installation
+
+Spark Filter only uses a minified JavaScript code which is available on the Release page.
+```
+<script src="filterous2.min.js"></script>
+```
 
 ### Usage
 
