@@ -1,7 +1,7 @@
 # Spark Filter
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f5aeb24e-7e08-4a2c-8110-4ab25ad9c5a6/deploy-status)](https://app.netlify.com/sites/sayancr777-spark-filter/deploys) \
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f5aeb24e-7e08-4a2c-8110-4ab25ad9c5a6/deploy-status)](https://app.netlify.com/sites/sayancr777-spark-filter/deploys) 
 
 Spark Filter is an Instagram-like image manipulation Web Application which is written in JavaScript and comes with pre-defined Instagram-like filters (with the same filter names and very similar effects).
 
