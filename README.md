@@ -115,7 +115,6 @@ Pull requests are encouraged
 ​
 ## Future Scope
 - UI part can be improved by adding some animations
-- Brainstorming any new feature are always welcome
 ​
 ## License
 This project is licensed under the MIT license.
