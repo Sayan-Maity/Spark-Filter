@@ -23,8 +23,11 @@ Spark Filter only uses a minified JavaScript code which is available on the Rele
 - **Frontend**: HTML, CSS, Javascript
 - **Version Control**: Git
 - **Hosting**: Netlify, Github Pages
-  
-### Usage
+
+## Getting Bugs ?
+Generally when the page loads, you would find difficulty in changing the filter of the images or even navigating through diffferent ```Demo Images``` given in the website. Actually this ```filterous``` library is a little buggy! So the only way to overcome this is to reload the page ```2-3 times``` and try to navigate between the demo pictures. \
+After doing these actions also if you are facing issue, feel free to drop me a [mail](sayancr777@gmail.com) here.
+## Usage
 
 Import an image object to `filterous` and render as HTML with `renderHtml`.
 
